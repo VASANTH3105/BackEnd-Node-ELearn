@@ -1,0 +1,37 @@
+#3
+R-Read
+E-Evaluate
+P-Print
+L-Loop
+Ex 20 + 20 `click enter`
+first read -> evaluate -> print output -> loop `repeat the same`
+
+Synchronous codes are said to be as blocking codes
+untill a single line execution is completed it blocks
+
+Call back can be used to make the code asynchronous.but nested call back is not good
+it is called as callback hell.
+
+|-> Client (type domain name) here browser makes a request to DNS (domain name id not the real address)
+|-> DNS (domain name to IP address) matches to same IP address
+|-> Server (has IP address) (a TCP/IP socket connection will be established between client and server)
+
+Sending a http request (a protocol help to communicate between client and server) 
+--------------------------
+"Request"
+GET /Home HTTP/1.1
+Host: www.nodeapp.com
+Accept-language: en-US
+User-agent: Mozilla/5.0
+Body: null ( POST may require body )
+--------------------------
+"Response"
+HTTP/1.1 200 OK
+Date: tue, 13 July 2024
+Content-type: text/html
+Content-length: 1234
+Body: <html>....</html> ( Some content )
+--------------------------
+As a backend developer we are not aware about the request type. But want ot ensure
+what kind of response we should get from the server. 
+
